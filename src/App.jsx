@@ -1,12 +1,15 @@
-import "./App.css";
 import Navbar from "./Components/Navbar";
-import Hero from "./Components/Hero";
+import HeroLeft from "./Components/HeroLeft";
+import HeroRight from "./Components/HeroRight";
 
 export default function App() {
   return (
-    <div className="app-container">
+    <>
       <Navbar />
-      <Hero />
-    </div>
+      <section className="hero">
+        <HeroLeft />
+        <HeroRight />
+      </section>
+    </>
   );
 }
