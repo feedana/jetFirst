@@ -2,6 +2,7 @@ import Navbar from "./Components/Navbar";
 import HeroLeft from "./Components/HeroLeft";
 import HeroRight from "./Components/HeroRight";
 import Courses from "./Components/Courses";
+import Difference from "./Components/Difference";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       </section>
 
       <Courses />
+      <Difference />
     </>
   );
 }
