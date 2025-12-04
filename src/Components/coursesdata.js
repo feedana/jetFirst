@@ -1,0 +1,85 @@
+const coursesData = [
+  {
+    title: "Front-End Proqramlaşdırma Kursu",
+    text: "İnteraktiv və müasir veb saytlar yarat!",
+    weeks: 2,
+    duration: "5 ay",
+    tags: ["react.js", "next.js", "html", "css", "tailwind", "javascript", "typescript"],
+    bg: "#FFF79A",
+  },
+  {
+    title: "Full Stack Proqramlaşdırma kursu",
+    text: "Sıfırdan tam hazır veb tətbiqlər yarat!",
+    weeks: 2,
+    duration: "7 ay",
+    tags: ["js", "express.js", "mongo db", "html", "css", "javascript", "typescript"],
+    bg: "#F7C0DA",
+  },
+  {
+    title: "Python Back-End Proqramlaşdırma kursu",
+    text: "Ağıllı serverlər, API-lar və miqyassalan bilər tətbiqlər yaradın!",
+    weeks: 2,
+    duration: "6 ay",
+    tags: ["api", "redis", "python", "django", "rabbitmq", "celery"],
+    bg: "#B6EDC8",
+  },
+  {
+    title: "Java Back-End Proqramlaşdırma kursu",
+    text: "Dayanıklı serverlər, API-lar və miqyaslana bilən sistemlər yaradın!",
+    weeks: 2,
+    duration: "6 ay",
+    tags: ["spring", "microservices", "java", "spring boot", "postgresql"],
+    bg: "#FFB3B3",
+  },
+  {
+    title: "IT Help Desk kursu",
+    text: "IT öyrən, real problemləri həll et, karyerana yön ver!",
+    weeks: 2,
+    duration: "4 ay",
+    tags: ["texniki destek", "help desk", "analiz", "troubleshooting"],
+    bg: "#BDE8FF",
+  },
+  {
+    title: "Kibertəhlükəsizlik kursu",
+    text: "Hücumdan müdafiəyə — kibertəhlükəsizlik üzrə ekspert ol!",
+    weeks: 2,
+    duration: "6 ay",
+    tags: ["etical hacking", "kibertəhlükəsizlik", "network", "pentest"],
+    bg: "#EFAAAA",
+
+  },
+  {
+    title: "Ofis Proqramları kursu",
+    text: "Microsoft Office proqramlarını peşakar səviyyədə öyrən!",
+    weeks: 2,
+    duration: "2 ay",
+    tags: ["microsoft word", "microsoft excel", "powerpoint"],
+    bg: "#FFD9B3",
+  },
+  {
+    title: "Praktiki Kompüter Bilikləri kursu",
+    text: "Hər kəs üçün əlçatan kompüter təhsili!",
+    weeks: 2,
+    duration: "2 ay",
+    tags: ["google docs", "təhlükəsizlik", "süni intellekt"],
+    bg: "#C8F4D6",
+  },
+  {
+    title: "İngilis dili kursu",
+    text: "İngilis dilində sərbəst danış!",
+    weeks: 2,
+    duration: "6 ay",
+    tags: ["speaking", "conversation", "grammar"],
+    bg: "#C9FFF7",
+  },
+  {
+    title: "Data Analitika kursu",
+    text: "Dataseti faydalı məlumatlara çevir!",
+    weeks: 2,
+    duration: "6 ay",
+    tags: ["excel", "statistika", "analytics", "python", "sql", "power bi"],
+    bg: "#EBC3FF",
+  }
+];
+
+export default coursesData;
